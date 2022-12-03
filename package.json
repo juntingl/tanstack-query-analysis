@@ -1,0 +1,10 @@
+{
+  "name": "tanstack-query-analysis",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+  },
+  "keywords": ["@tanstack/query"],
+  "author": "",
+  "license": "MIT"
+}
