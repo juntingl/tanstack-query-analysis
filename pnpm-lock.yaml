@@ -6,6 +6,8 @@ specifiers:
   '@babel/preset-react': ^7.18.6
   '@babel/preset-typescript': ^7.18.6
   eslint: ^8.29.0
+  eslint-config-prettier: ^8.5.0
+  prettier: ^2.8.0
   typescript: ^4.9.3
 
 devDependencies:
@@ -14,6 +16,8 @@ devDependencies:
   '@babel/preset-react': 7.18.6_@babel+core@7.20.5
   '@babel/preset-typescript': 7.18.6_@babel+core@7.20.5
   eslint: 8.29.0
+  eslint-config-prettier: 8.5.0_eslint@8.29.0
+  prettier: 2.8.0
   typescript: 4.9.3
 
 packages:
@@ -1583,6 +1587,15 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+  /eslint-config-prettier/8.5.0_eslint@8.29.0:
+    resolution: {integrity: sha1-WoFoDsk0vsoCx7GmHPjKNLZv6rE=}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 8.29.0
+    dev: true
+
   /eslint-scope/7.1.1:
     resolution: {integrity: sha1-//NIlML2XlIm0wQaxIC0UToWNkI=}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
@@ -2003,6 +2016,12 @@ packages:
   /prelude-ls/1.2.1:
     resolution: {integrity: sha1-3rxkidem5rDnYRiIzsiAM30xY5Y=}
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  /prettier/2.8.0:
+    resolution: {integrity: sha1-x99YOTybp31vujkhrgH6+ZT7nck=}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /punycode/2.1.1:

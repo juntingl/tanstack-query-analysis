@@ -6,6 +6,7 @@
   "namespace": "@analysis",
   "scripts": {},
   "keywords": [
+    "analysis",
     "@tanstack/query"
   ],
   "author": "",
@@ -16,6 +17,8 @@
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
     "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.8.0",
     "typescript": "^4.9.3"
   }
 }
